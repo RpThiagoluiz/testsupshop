@@ -12,20 +12,24 @@ export const Container = styled.nav`
   color: ${({ theme }) => theme.colors.text.black};
   margin-bottom: 80px;
 
-  > h1 {
-    font-size: 48px;
-    color: #e37422;
+  > h2 {
+    font-size: 38px;
+    color: ${({ theme }) => theme.colors.text.white};
   }
 `;
 export const User = styled.section`
   display: flex;
   align-items: center;
 
+  > h3 {
+    color: ${({ theme }) => theme.colors.text.white};
+  }
+
   > img {
-    margin: 8px;
-    background-color: ${({ theme }) => theme.colors.text.white};
-    border-radius: 50%;
     width: 38px;
     height: 38px;
+
+    margin: 8px;
+    border-radius: 50%;
   }
 `;
