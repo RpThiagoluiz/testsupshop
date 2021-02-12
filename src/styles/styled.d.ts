@@ -17,7 +17,7 @@ declare module "styled-components" {
         gray: string;
         black: string;
       };
-      msg: {
+      mensages: {
         success: string;
         warning: string;
         fail: string;

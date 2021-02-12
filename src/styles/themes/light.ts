@@ -15,7 +15,7 @@ export default {
       black: "#0f0f0f",
     },
 
-    msg: {
+    mensages: {
       success: "#22bb33",
       warning: "#ff980f",
       fail: "#c9302c",

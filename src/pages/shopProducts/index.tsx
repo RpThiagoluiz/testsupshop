@@ -1,12 +1,13 @@
 //Components
 import Products from "../../components/Products";
+import TopBar from "../../components/TopBar";
 
 //Styles
 import { Container } from "./styles";
 
 const ShopProducts = () => (
   <Container>
-    <h1>ShopProducts</h1>
+    <TopBar />
     <Products />
   </Container>
 );
