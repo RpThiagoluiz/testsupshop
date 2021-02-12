@@ -1,9 +1,13 @@
+//Routes
+import Routes from "./routes";
+
+//Styles
 import GlobalStyles from "./styles/GlobalStyles";
 
 const App = () => (
   <>
     <GlobalStyles />
-    <h1>Hi, hello, good Morning!</h1>
+    <Routes />
   </>
 );
 
