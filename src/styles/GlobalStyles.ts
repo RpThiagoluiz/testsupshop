@@ -9,7 +9,7 @@ export default createGlobalStyle`
 
   html,body, #root {
     height: 100%;
-    font-size: 32px;
+    font-size: 24px;
   }
 
   *,button,input {

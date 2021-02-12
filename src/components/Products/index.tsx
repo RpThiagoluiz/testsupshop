@@ -5,9 +5,9 @@ import { Container } from "./styles";
 
 const Products = () => (
   <Container>
+    <span>Pop</span>
     <h1>Product Names</h1>
     <img src="" alt="" />
-    <p>Pop</p>
     <small>Price</small>
   </Container>
 );
